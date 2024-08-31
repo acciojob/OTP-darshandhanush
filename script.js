@@ -8,6 +8,7 @@ codes.forEach((code, index)=>{
         if(code.value.length == 1){
             if(index < codes.length - 1){
                 codes[index+1].focus()
+				codes[index+1].classList.add("focused")
             }
         }
 
@@ -18,6 +19,7 @@ codes.forEach((code, index)=>{
         if(e.key == "Backspace"){
             if(index>0 && code.value.length == 0){
                 codes[index-1].focus() 
+				codes[index-1].classList.add("focused")
             }
         }
 

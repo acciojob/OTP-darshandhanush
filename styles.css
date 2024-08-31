@@ -17,7 +17,7 @@
     box-shadow: 0 0 10px rgba(0,0 ,0,https://www.svgrepo.com/show/345221/three-dots.svg  0.3);
 }
 
-.code:focus{
+.focused{
     border: 2px solid #000;
     border-radius: 10px;
     outline: none;
