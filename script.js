@@ -24,6 +24,9 @@ codes.forEach((code, index)=>{
         }
 
     })
+	code.addEventListener("blur",()=>{
+		code.classList.remove("focused")
+	})
 })
 
 
